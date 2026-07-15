@@ -3,7 +3,7 @@ import ollama
 import os
 import random
 
-st.set_page_config(page_title="Particle Physics RAG", page_icon="⚛️", layout="wide")
+st.set_page_config(page_title="Particle Physics RAG Assistant", page_icon="⚛️", layout="wide")
 
 # Model Configurations
 EMBEDDING_MODEL = 'nomic-embed-text'
@@ -28,7 +28,7 @@ with st.sidebar:
     st.caption(f"LLM: `{LANGUAGE_MODEL}`")
 
 # Main Page
-st.title("⚛️ Particle Physics RAG Demo")
+st.title("⚛️ Particle Physics RAG Assistant")
 st.write("Ask any question about particle physics! This app retrieves relevant facts from a local vector database and uses a local LLM via Ollama to generate an answer.")
 
 # --- 1. Vector DB Setup & Caching ---

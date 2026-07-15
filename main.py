@@ -61,7 +61,7 @@ def main():
     load_and_embed()
     
     print("\n" + "="*50)
-    print("Welcome to the Particle Physics RAG Application!")
+    print("Welcome to the Particle Physics RAG Assistant!")
     print("Type your question below. Type 'exit' or 'quit' to close.")
     print("="*50 + "\n")
     
